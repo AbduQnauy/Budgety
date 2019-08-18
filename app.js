@@ -106,9 +106,9 @@ var budgetController = (function() {
         percentage: data.percentage
       };
     },
-    testing: function() {
-      console.log(data);
-    }
+//     testing: function() {
+//       console.log(data);
+//     }
   };
 })();
 
@@ -373,7 +373,7 @@ var controller = (function(budgetCtrl, UICtrl) {
   };
   return {
     init: function() {
-      console.log("Application has started");
+//       console.log("Application has started");
       UICtrl.displayMonth();
       //   Initializing Budget of the UI
       UICtrl.displayBudget({
